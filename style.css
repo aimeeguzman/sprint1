@@ -34,20 +34,46 @@ body {
   height: 100%;
 }
 body {
-  color: #E8E2D7;
+  color: #060503;
   text-align: center;
   background-image: url("images/conference_table.jpeg");
   background-size: 1400px 1200px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;  
+  position: relative;
+  top: -100px;
+  right: 160px;
+
+}
+.modal-header .modal-title .modal-title{
+ 
+
+
 }
 
 img{ 
 
     border-radius: 50%;
-    position: absolute;
-    left: 5px;
-    top: 10px;
+    position: relative;
+    left: -120px;
+    top: 5px;
 
+}
+
+h2{
+  color: #FAFAFA;
+
+}
+
+p{
+
+  color: #FAFAFA;
+ 
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #52ABC5;
+    border-color: #2e6da4;
 }
 
 
@@ -96,12 +122,10 @@ img{
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
+  /*color: #fff; /* IE8 proofing */
   color: #4E422D;
   text-decoration: none;
-  position: relative;
-  left: 180px;
-  top: 10px;
+
 }
 
 .masthead-nav > li > a:hover,
@@ -146,7 +170,7 @@ img{
  */
 
 .mastfoot {
-  color: #999; /* IE8 proofing */
+  color: #5BC0DE; /* IE8 proofing */
 }
 
 
