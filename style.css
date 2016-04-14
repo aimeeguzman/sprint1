@@ -1,4 +1,10 @@
 /*
+*Belongs in html <link href="style.css" type="text/css" rel="stylesheet" >
+
+*  <img src="images/placeholder-logo.png" alt="Welcome"> 
+ */
+
+/*
  * Globals
  */
 
@@ -6,16 +12,16 @@
 a,
 a:focus,
 a:hover {
-  color: #56695A;
+  color: #010802;
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #9C6C1E;
-  text-shadow: none; /* Prevent inheritence from `body` */
+  color: #E8E2D7;
   border: 1px solid #fff;
+  text-decoration: none;
 }
 
 
@@ -28,12 +34,20 @@ body {
   height: 100%;
 }
 body {
-  color: #9C6C1E;
+  color: #E8E2D7;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
   background-image: url("images/conference_table.jpeg");
-  background-size: 1400px 1000px;
+  background-size: 1400px 1200px;
   background-repeat: no-repeat;
+}
+
+img{ 
+
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+
 }
 
 
@@ -72,9 +86,11 @@ body {
 .masthead-nav > li {
   display: inline-block;
 }
+
 .masthead-nav > li + li {
   margin-left: 20px;
 }
+
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
@@ -82,26 +98,24 @@ body {
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: #4E422D;
-  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  position: relative;
+  left: 180px;
+  top: 10px;
 }
+
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
 }
+
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
   color: #4E422D;
   border-bottom-color: #fff;
-}
-
-/*
- * Modul
- */
-.container {
-  margin-top: 200px;
 }
 
 @media (min-width: 768px) {
@@ -112,7 +126,6 @@ body {
     float: right;
   }
 }
-
 
 
 /*
@@ -133,45 +146,6 @@ body {
  */
 
 .mastfoot {
-  color: #999; /* IE8 proofing */
-}
-
-
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
-
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 700px;
-  }
-}
-
-
   color: #999; /* IE8 proofing */
 }
 
