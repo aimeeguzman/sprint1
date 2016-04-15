@@ -1,7 +1,9 @@
 /*
 *Belongs in html <link href="style.css" type="text/css" rel="stylesheet" >
+
 *  <img src="images/placeholder-logo.png" alt="Welcome"> 
  */
+
 
 /*
  * Globals
@@ -49,14 +51,16 @@ img{
 }
 
 h2 {
-  color: #000;
+  color: #5BC0DE;
+  text-shadow: 2px 2px #000;
 }
 
 h4 {
   color: #000;
 }
 p {
-  color: #fafafa;
+  color: #fff;
+  text-shadow: 1px 1px #5BC0DE;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -189,4 +193,5 @@ p {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
+
 
