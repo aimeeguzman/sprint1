@@ -1,6 +1,5 @@
 /*
 *Belongs in html <link href="style.css" type="text/css" rel="stylesheet" >
-
 *  <img src="images/placeholder-logo.png" alt="Welcome"> 
  */
 
@@ -34,48 +33,31 @@ body {
   height: 100%;
 }
 body {
-  color: #060503;
+  color: #000;
   text-align: center;
   background-image: url("images/conference_table.jpeg");
   background-size: 1400px 1200px;
-  background-repeat: no-repeat;  
-  position: relative;
-  top: -100px;
-  right: 160px;
-
-}
-.modal-header .modal-title .modal-title{
- 
-
-
+  background-repeat: no-repeat;
 }
 
 img{ 
 
     border-radius: 50%;
     position: relative;
-    left: -120px;
-    top: 5px;
-
+    left: 120px;
+    top: -10px;
 }
 
-h2{
-  color: #FAFAFA;
-
+h2 {
+  color: #000;
 }
 
-p{
-
-  color: #FAFAFA;
- 
+h4 {
+  color: #000;
 }
-
-.btn-primary {
-    color: #fff;
-    background-color: #52ABC5;
-    border-color: #2e6da4;
+p {
+  color: #fafafa;
 }
-
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -122,10 +104,9 @@ p{
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  /*color: #fff; /* IE8 proofing */
+  color: #fff; /* IE8 proofing */
   color: #4E422D;
   text-decoration: none;
-
 }
 
 .masthead-nav > li > a:hover,
@@ -142,14 +123,7 @@ p{
   border-bottom-color: #fff;
 }
 
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
+
 
 
 /*
@@ -170,13 +144,29 @@ p{
  */
 
 .mastfoot {
-  color: #5BC0DE; /* IE8 proofing */
+  color: #5bc0de;
 }
 
 
 /*
  * Affix and center
  */
+ @media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
@@ -200,10 +190,3 @@ p{
   }
 }
 
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 700px;
-  }
-}
