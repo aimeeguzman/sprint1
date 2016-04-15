@@ -45,9 +45,9 @@ body {
 img { 
 
     border-radius: 50%;
-    position: relative;
+    position: absolute;
     left: 120px;
-    top: -10px;
+    top: 5px;
 }
 
 h2 {
@@ -55,9 +55,6 @@ h2 {
   text-shadow: 2px 2px #000;
 }
 
-.sub {
-  color: #000 !important;
-}
 
 p {
   color: #fff;
