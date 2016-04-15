@@ -8,19 +8,17 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-    <!-- Aimee Alert JS -->
-	<script type="text/javascript" src="alert.js"</script>
-
     <!-- Yadira JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+
+    <!-- Denise JS -->
+	<link rel='stylesheet prefetch' href='http://yui.yahooapis.com/pure/0.5.0/pure-min.css'>
 
     <!-- Jessica JS -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-	<!-- Denise JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <title>MooshMod</title>
 
@@ -71,7 +69,7 @@
 						          <h4 class="modal-title">Join The Moosh Club</h4>
 						        </div>
 					        	<div class="modal-body">
-					          		<p>Please Enter Your Information Below</p>
+					          		<p class="sub">Please Enter Your Information Below</p>
 					        	</div>
 
 						        <!-- User Input -->
@@ -115,6 +113,24 @@
 						        </div>    
 						        <!-- Submit Button-->
 						        <button onclick="confirm()" type="submit" class="btn btn-primary" ng-disabled="userForm.$invalid">Submit</button>
+
+						        <!-- Denise Password -->
+						        <form class="pure-form">
+							        <fieldset>
+							        	<legend>text</legend>
+
+							        	<input type="password" placeholder="Password" id="password" required>
+							        	<input type="password" placeholder="Confirm Password" id="confirm_password" required>
+
+							        	<button type="submit" class="pure-button pure-button-primary">Confirm</button>
+							        </fieldset>
+							    </form>
+
+							    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+							    <script src="js/index.js"></script>
+							    <!-- END Denise Password -->
+
 							</div>
 				 		</div>
 				 	</div>
