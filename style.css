@@ -4,7 +4,6 @@
 *  <img src="images/placeholder-logo.png" alt="Welcome"> 
  */
 
-
 /*
  * Globals
  */
@@ -13,7 +12,7 @@
 a,
 a:focus,
 a:hover {
-  color: #000;
+  color: #010802;
 }
 
 /* Custom default button */
@@ -35,43 +34,20 @@ body {
   height: 100%;
 }
 body {
-  color: #000;
+  color: #E8E2D7;
   text-align: center;
   background-image: url("images/conference_table.jpeg");
   background-size: 1400px 1200px;
   background-repeat: no-repeat;
 }
 
-img { 
+img{ 
 
     border-radius: 50%;
     position: absolute;
-    left: 120px;
-    top: 5px;
-}
+    left: 5px;
+    top: 10px;
 
-h2 {
-  color: #5BC0DE;
-  text-shadow: 2px 2px #000;
-}
-
-
-p {
-  color: #fff;
-  text-shadow: 1px 1px #5BC0DE;
-}
-
-.sub {
-  color: #000 !important;
-  text-shadow: none !important;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #52ABC5;
-    border-color: #2e6da4;
-    position: relative;
-    right: 50px;
 }
 
 
@@ -123,6 +99,9 @@ p {
   color: #fff; /* IE8 proofing */
   color: #4E422D;
   text-decoration: none;
+  position: relative;
+  left: 180px;
+  top: 10px;
 }
 
 .masthead-nav > li > a:hover,
@@ -139,7 +118,14 @@ p {
   border-bottom-color: #fff;
 }
 
-
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
 
 
 /*
@@ -160,29 +146,13 @@ p {
  */
 
 .mastfoot {
-  color: #5bc0de;
+  color: #999; /* IE8 proofing */
 }
 
 
 /*
  * Affix and center
  */
- @media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 700px;
-  }
-}
-
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
@@ -206,4 +176,10 @@ p {
   }
 }
 
-
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
